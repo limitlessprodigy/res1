@@ -26,8 +26,8 @@
 					x: 20
 				}
 			});
-		};
-		if (!($(".main-navigation.animated").length>0) && !Modernizr.touch && $(".main-navigation").length>0){
+		}
+		if (($(".main-navigation.animated").length>0) && !Modernizr.touch && $(".main-navigation").length>0){
 			$.notify({
 				// options
 				message: 'The animations of main menu are disabled.'
@@ -41,7 +41,7 @@
 				}
 			}); // End Notify Plugin - The above code (from line 14) is used for demonstration purposes only
 
-		};
+		}
 	}); // End document ready
 
 })(this.jQuery);
